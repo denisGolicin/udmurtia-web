@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/udmurtia/css/admin/index.css">
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/admin/header.css">
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/admin/navigation.css">
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/loader.css">
+
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/admin/windows/main.css">
+
+    <link rel="stylesheet" type="text/css" href="/udmurtia/css/admin/windows/events.css">
+    
+    <title>Панель управления</title>
+
+    <link rel="icon" type="image/x-icon" href="">
+
+    <meta name="description" content="">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- <p>И не надо тут юлять по 500 раз логинится, а тем более не попадёшь сюда без авторизации!</p>
+        <button id="exitButton">Выйти</button> -->
+
+        <div class="header-wrapper">
+            <img src="/udmurtia/src/header/slang-header.svg" alt="">
+            <div class="header-wrapper-profile">
+                <p>Николай Мокров</p>
+                <img src="/udmurtia/src/user.svg" alt="">
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="navigation-bar">
+                <div class="navigation-item navigation-main-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/main.svg" alt="">
+                    <p>Главная</p>
+                </div>
+                <!-- Пользователи -->
+                <div class="navigation-item navigation-user-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/users.svg" alt="">
+                    <p>Пользователи</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-user-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/users.svg" alt="">
+                    <p>Пользователи</p>
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-user-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/users.svg" alt="">
+                    <p>Организаторы</p>
+                </div> 
+                <div class="navigation-item navigation-item-drop navigation-user-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/users.svg" alt="">
+                    <p>Администраторы</p>
+                </div>  
+                <!-- --------------- -->
+                <!-- Новости -->     
+                <div class="navigation-item navigation-news-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Новости</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-news-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Новые</p>
+                    
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-news-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Опубликованные</p>
+                    
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-news-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Скрытые</p>
+                    
+                </div>
+                <!-- --------------- -->
+                <!-- Мероприятия -->
+                <div class="navigation-item navigation-events-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/events.svg" alt="">
+                    <p>Мероприятия</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-events-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Новые</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-events-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Опубликованные</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-events-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Скрытые</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-events-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Районы</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-events-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Категории</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <!-- --------------- -->
+                <!-- Игры -->
+                <div class="navigation-item navigation-games-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/games.svg" alt="">
+                    <p>Игры</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-games-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Задания</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-games-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Квесты</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <div class="navigation-item navigation-item-drop navigation-games-item">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/news.svg" alt="">
+                    <p>Викторины</p>
+                    <img class="navigation-icon-arrow" src="/udmurtia/src/navigation/arrow.svg" alt="">
+                </div>
+                <!-- --------------- -->
+                <!-- Без dropMenu -->
+                <div class="navigation-item navigation-notifications-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/notifications.svg" alt="">
+                    <p>Уведомления</p>
+                    
+                </div>
+                <div class="navigation-item navigation-shop-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/shop.svg" alt="">
+                    <p>Магазин</p>
+                    
+                </div>
+                <div class="navigation-item navigation-transaction-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/transaction.svg" alt="">
+                    <p>Транзакции</p>
+                    
+                </div>
+                <div class="navigation-item navigation-prediction-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/predictions.svg" alt="">
+                    <p>Предсказания</p>
+                    
+                </div>
+                <div class="navigation-item navigation-levels-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/levels.svg" alt="">
+                    <p>Уровни</p>
+                    
+                </div>
+                <div class="navigation-item navigation-memes-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/mems.svg" alt="">
+                    <p>Мемы</p>
+                   
+                </div>
+
+                <div class="navigation-item navigation-tools-button">
+                    <img class="navigation-icon" src="/udmurtia/src/navigation/tools.svg" alt="">
+                    <p>Тестирование</p>
+                   
+                </div>
+            </div>
+            <div class="window-wrapper">
+
+                <div class="loader-wrapper">
+                    <img src="/udmurtia/src/slang-auth.svg" alt="">
+                    <p class="loader-text"></p>
+                    <div class="circle"></div>
+                </div>
+
+                <div class="window-item window-main">
+                    <div class="window-main-wrapper">
+
+                        <div class="window-main-row-wrapper">
+    
+                            <div class="window-main-column-wrapper">
+                                <div class="block">
+                                    <div class="block block-actual-events">
+                                        <div class="window-title">
+                                            <p>Последние новости</p>
+                                            <div class="add-button all-events">все новости</div>
+                                        </div>
+                                        <div style="display: flex;" class="events-wrapper events-actual">
+                                            
+                                            <!-- Добавление актуальных мероприятий  -->
+                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="window-main-column-wrapper">
+                                <div class="block"></div>
+                            </div>
+
+                        </div>
+    
+                        <div class="window-main-row-wrapper">
+
+                            <div class="window-main-column-wrapper">
+                                <div class="block block-actual-events">
+                                    <div class="window-title">
+                                        <p>Последние мероприятия</p>
+                                        <div class="add-button all-events">все мероприятие</div>
+                                    </div>
+                                    <div style="display: flex;" class="events-wrapper events-actual">
+                                        
+                                        <!-- Добавление актуальных мероприятий  -->
+                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="window-main-column-wrapper">
+                                <div class="block">
+                                    
+                                </div>
+                            </div>
+                             
+                        </div>
+
+                    </div>
+                </div>
+                <div class="window-item window-users">Пользователи</div>
+                <div class="window-item window-news">Новости</div>
+                <div class="window-item window-events">
+                    <div class="window-title">
+                        <p>Мероприятия</p>
+                        <div class="add-button">Добавить мероприятие</div>
+                    </div>
+                    <div class="window-navigation">
+                        <div class="window-navigation-block">
+                            <div class="window-navigation-item events-button-news">Новые</div>
+                            <div class="window-navigation-item events-button-published">Опубликованные</div>
+                            <div class="window-navigation-item events-button-hidden">Скрытые</div>
+                            <div class="window-navigation-item events-button-completed">Завершенные</div>
+                            <div class="window-navigation-item events-button-category">Категории</div>
+                            <div class="window-navigation-item events-button-district">Районы</div>
+                        </div>
+                    </div>
+                    <div class="events-wrapper events-news">   
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="events-wrapper events-published">   
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="events-wrapper events-hidden">   
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="events-wrapper events-completed">   
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="events-wrapper events-category">   
+                        Категории
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="events-wrapper events-district">   
+                        Районы
+                        <!-- Добавление мероприятий на редактирование -->
+                    </div>
+
+                    <div class="count-button"><p>загрузить ещё</p></div>
+                </div>
+                <div class="window-item window-games">Игры</div>
+                <div class="window-item window-notifications">Уведомления</div>
+                <div class="window-item window-shop">Магазин</div>
+                <div class="window-item window-transaction">Транзакции</div>
+                <div class="window-item window-predictions">Предсказания</div>
+                <div class="window-item window-levels">Уровни</div>
+                <div class="window-item window-memes">Мемы</div>
+
+
+                <div class="window-item window-tools">
+                    <button id="exitButton">Выйти</button>
+                    <div class="message-tools block"><span style="font-size: 18px; color: #631298;">Обновления от 28.08.2023</span><br><br>
+                    - Сделано меню навигации.<br><br>
+                    - Сделаны переходы по страницам.<br><br>
+                    - На страницы можно попасть с помощью параметра: page:value.<br><br>
+                    - Добавлены мероприятия в интерфейс(20%).<br><br>
+                    - Добавлены мероприятия в интерфейс на главный экран.
+                    </div>
+
+                </div>
+
+                
+        </div>
+        
+
+    </div>
+
+
+
+    <script>
+        const exitButton = document.querySelector('#exitButton');
+        exitButton.addEventListener('click', function(){
+            deleteCookie("AUTH_TOKEN");
+            window.location.reload();
+        });
+        function deleteCookie(cookieName) {
+            document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        }
+
+    </script>
+
+    <script src="/udmurtia/js/module.js"></script>
+    <script src="/udmurtia/js/index.js"></script>
+    <script src="/udmurtia/js/navigation.js"></script>
+    <script src="/udmurtia/js/loader.js"></script>
+
+    <script src="/udmurtia/js/readNews.js"></script>
+    <script src="/udmurtia/js/readEvents.js"></script>
+
+    <script src="/udmurtia/js/readAll.js"></script>
+</body>
+</html>

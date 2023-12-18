@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "b73daa2a-9188-4704-a225-4432f1e9bf6a",
+		"name": "news",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests a user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29458277",
+		"_collection_link": "https://orange-sunset-517399.postman.co/workspace/3e3e7930-373a-4d22-a2f0-e06d84369a66/collection/29458277-b73daa2a-9188-4704-a225-4432f1e9bf6a?action=share&source=collection_link&creator=29458277"
+	},
+	"item": [
+		{
+			"name": "http://udmurtia/udmurtia/api/news/read.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://udmurtia/udmurtia/api/news/read.php",
+					"protocol": "http",
+					"host": [
+						"udmurtia"
+					],
+					"path": [
+						"udmurtia",
+						"api",
+						"news",
+						"read.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://udmurtia/udmurtia/api/news/read.php",
+							"protocol": "http",
+							"host": [
+								"udmurtia"
+							],
+							"path": [
+								"udmurtia",
+								"api",
+								"news",
+								"read.php"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+    "news": [
+      {
+        "title": "Концерт в парке",
+        "category": "Музыка",
+        "size": "Средний",
+        "start_date": "2023-04-15",
+        "end_date": "2023-04-15",
+        "start_time": "18:00",
+        "source": "https://example.com/concert",
+        "event_type": "Концерт",
+        "description": "Приходите на увлекательный музыкальный вечер в нашем парке!",
+        "images": [
+          "images/concert1.jpg",
+          "images/concert2.jpg"
+        ]
+      },
+      {
+        "title": "Выставка искусства",
+        "category": "Искусство",
+        "size": "Маленький",
+        "start_date": "2023-04-20",
+        "end_date": "2023-04-30",
+        "start_time": "10:00",
+        "source": null,
+        "event_type": "Выставка",
+        "description": "Приглашаем вас на уникальную выставку современного искусства.",
+        "images": [
+          "images/art1.jpg",
+          "images/art2.jpg"
+        ]
+      }
+    ]
+  }
+  
